@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Bubbles&display=swap');
+body{
+    margin: 0 ;
+    /* padding: 0; */
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+    justify-content: space-between;
+}
+.logo{
+    width:103px;
+    height: 32px;
+    margin-left: 80px;
+    /* margin-top: 46px; */
+}
+.logo p{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+}
+.menu_text{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* padding: 13px; */
+}
+.menu ul>li{
+    padding: 13px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    /* margin-top: 60px; */
+    margin-right: 80px;
+}
+.menu>ul{
+    display:flex;
+    
+}
+.firsttext{
+    margin-top: 110px;
+    width: 550px;
+}
+.section1{
+    display:flex;
+    justify-content: space-around;
+    background-color: #F1F1F1;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero{
+    
+}
+.firsttext h1,p{
+    font-family: 'Poppins';
+
+}
+.section2{
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+    /* border:red solid 2px; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vector1{
+    font-weight: 600;
+    font-family:Poppins;
+    font-size: 24px;
+
+}
+.vector{
+    width: 320px;
+    margin: 30px;
+}
+.portfolio{
+    background-color:#F1F1F1;
+    width: 70%;
+    /* padding: 90px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.port_h1{
+    font-family: Poppins;
+    /* text-align: center; */
+    margin-bottom: 70px;
+}
+.port_image{
+    max-width: 100%;
+}
+.grey{
+    background-color:#F1F1F1;
+    max-width: 100%;
+    margin-bottom: 90px;
+}
+.portfolio_names{
+      color: #000000;
+      font-family: Poppins;
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: 90px;
+      font-weight: 400px;
+}
+.contacts{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align:center;
+    margin-top: 90px;
+    width: 342px;
+    margin: 0 auto;
+}
+.contact_text{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size:34px;
+    /* margin-top: 90px; */
+    margin-bottom:40px;
+    width: 100%;
+    margin:0 auto;
+}
+.question{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 296px;
+    margin-bottom: 47px;
+}
+.send{
+    color: white;
+    background-color: #000000;
+    width: 180px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.icons_div{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin: 0 30px;
+    margin-top: 80px;
+}
+.footer{
+    font-size: 14px;
+    color:  #828282;
+    width:260px;
+    margin-top: 41px;
+    margin-bottom: 90px;
+}
+
+
+
+@media (max-width:620px){
+
+.logo{
+    margin-left: 20px;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    margin-top:15px;
+    margin-right: 20px;
+}
+.rectangle{
+    width: 90%;
+    height: 4px;
+    margin: 4px;
+    background-color: #000000;
+}
+.menu_mobile{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hero{
+    width: 90%;
+}
+.firsttext{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 53px;
+}
+.menu{
+    display:none;
+}
+.section1{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.portfolio{
+    width: 90%;
+    margin-left: 10px;
+}
+.portfolio_names{
+    font-size: 16px;
+}
+}
